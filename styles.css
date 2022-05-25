@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #756f6f;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    color: #f3f3f3;
+}
+
+
+/* MENU DE NAVEGACION */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 25px 25px;
+    background-color: rgb(5, 9, 29);
+}
+
+
+nav a{
+    color: #f3f3f3;
+    padding: 15px 0 0 60px;  
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: #156fa3ea;
+    
+}
+
+
+/****** CONTENIDO HOME **********************/
+
+.contenedor{
+    z-index: 0;
+    min-height: 95vh;
+    background-image: url("/fotos/prog.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+
+}
+
+.contenedor__1{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.img__cv img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.img__cv {
+    padding-top: 120px;
+}
+
+.presentacion {
+    padding-top: 120px;   
+}
+
+.presentacion ul{
+    list-style: none;
+    animation: cambiar 1.1s infinite;
+}
+
+@keyframes cambiar {
+    0% {margin-top: 0;}
+    10% {margin-top: -10;}
+    20% {margin-top: -20px;}
+    30% {margin-top: -30px;}
+    40% {margin-top: -40px;}
+    50% {margin-top: -40px;}
+    60% {margin-top: -30;}
+    70% {margin-top: -20px;}
+    80% {margin-top: -10px;}
+    90% {margin-top: 0;}
+    100%{margin-top: 0;}
+}
+
+
+h1{
+    font-size: 50px;
+    color: #156fa3ea;
+}
+
+/******** SOBRE MI ************************************/
+.container p{
+    color: #000000;
+}
+
+.sobreMi{
+    padding: 90px 0;
+}
+.sobreMi img{
+    width: 60px;
+    height: 60px;
+    transition: .1s;
+}
+.sobreMi img:hover{
+    transform: rotate(20deg) scale(1.1);
+    width: 70px;
+    
+
+}
+
+
+.sobreMi p{
+    font-size: 25px;
+}
+/******** PROYECTOS *****************************************/
+h2{
+    text-align: center;
+}
+
+.container-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container-proyectos {
+    background-color: #c1bdbd;
+    margin: 30px;
+}
+
+
+
+.container-proyectos p{
+   text-align: center;
+   color: #000000;
+}
+
+.img-fluid{
+  width: 500px;
+    
+   
+}
+
+.img-fluid:hover{
+    transition: .8s;
+    
+}
+
+/******** CONTACTO *****************************************/
+.contacto {
+    padding: 40px 0;
+    
+}
+
+.contacto h2{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contacto img{
+    height: 80px;
+    width: 80px;
+}
+
+.contacto img:hover{
+    transition: .5s;
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+
+.contacto__flex{
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h6{
+    text-align: center;
+}
+
+
+
+
